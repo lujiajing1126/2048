@@ -77,3 +77,10 @@
   -moz-appearance: $args;
   appearance: $args;
 }
+
+// responsive size
+@mixin resize($size) {
+  $newsize: 50px;
+  width: $newsize;
+  height: $newsize;
+}
